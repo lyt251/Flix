@@ -2,13 +2,13 @@
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-## Flix Part 2 (coming soon...)
+## Flix Part 2 
 
 ### User Stories
 
 #### REQUIRED (10pts)
-- [ ] (5pts) User can tap a cell to see more details about a particular movie.
-- [ ] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+- [X] (5pts) User can tap a cell to see more details about a particular movie.
+- [X] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
 
 #### BONUS
 - [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
@@ -17,11 +17,11 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### App Walkthrough GIF
 `TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="http://g.recordit.co/rCJDtdrkgo.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
-(will be updated soon...)
+Since I was running my project every so often to ensure that the build was successful, I realized there were times in which it would clash due to not payng close attention to the labeling and names of the identifiers for the view controllers. Hence, I truly realized the importance of carefully and acccurately identifying the elements.
+
 ---
 
 ## Flix Part 1
