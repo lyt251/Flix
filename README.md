@@ -29,9 +29,9 @@ Describe any challenges encountered while building the app.
 ### User Stories
 
 #### REQUIRED (10pts)
-- [ ] (2pts) User sees an app icon on the home screen and a styled launch screen.
-- [ ] (5pts) User can view and scroll through a list of movies now playing in theaters.
-- [ ] (3pts) User can view the movie poster image for each movie.
+- [X] (2pts) User sees an app icon on the home screen and a styled launch screen.
+- [X] (5pts) User can view and scroll through a list of movies now playing in theaters.
+- [X] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
 - [ ] (2pt) User can view the app on various device sizes and orientations.
