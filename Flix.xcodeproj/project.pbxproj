@@ -19,6 +19,8 @@
 		A640C296251E97B0001856D1 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A640C295251E97B0001856D1 /* FlixUITests.swift */; };
 		A640C2A4251E9959001856D1 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A640C2A3251E9959001856D1 /* MoviesViewController.swift */; };
 		A640C2A6251EB201001856D1 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A640C2A5251EB201001856D1 /* MovieCell.swift */; };
+		A671284825283D7700AFD271 /* MoviewGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A671284725283D7700AFD271 /* MoviewGridViewController.swift */; };
+		A671284A252842BD00AFD271 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6712849252842BD00AFD271 /* MovieGridCell.swift */; };
 		A6B29F30252700BD0019137F /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B29F2F252700BD0019137F /* MovieDetailsViewController.swift */; };
 		A9A621137C0DAC663087B521 /* Pods_FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F490923260F14386EED75C55 /* Pods_FlixTests.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +65,8 @@
 		A640C297251E97B0001856D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A640C2A3251E9959001856D1 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		A640C2A5251EB201001856D1 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		A671284725283D7700AFD271 /* MoviewGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviewGridViewController.swift; sourceTree = "<group>"; };
+		A6712849252842BD00AFD271 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		A6B29F2F252700BD0019137F /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		AD5AB8A7802230EA955285E8 /* Pods-Flix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.debug.xcconfig"; path = "Target Support Files/Pods-Flix/Pods-Flix.debug.xcconfig"; sourceTree = "<group>"; };
 		F490923260F14386EED75C55 /* Pods_FlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,11 +154,13 @@
 				A640C277251E97A6001856D1 /* ViewController.swift */,
 				A640C2A3251E9959001856D1 /* MoviesViewController.swift */,
 				A640C2A5251EB201001856D1 /* MovieCell.swift */,
-				A640C279251E97A6001856D1 /* Main.storyboard */,
 				A6B29F2F252700BD0019137F /* MovieDetailsViewController.swift */,
+				A671284725283D7700AFD271 /* MoviewGridViewController.swift */,
+				A640C279251E97A6001856D1 /* Main.storyboard */,
 				A640C27C251E97AF001856D1 /* Assets.xcassets */,
 				A640C27E251E97AF001856D1 /* LaunchScreen.storyboard */,
 				A640C281251E97AF001856D1 /* Info.plist */,
+				A6712849252842BD00AFD271 /* MovieGridCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -417,8 +423,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A640C278251E97A6001856D1 /* ViewController.swift in Sources */,
+				A671284825283D7700AFD271 /* MoviewGridViewController.swift in Sources */,
 				A640C274251E97A6001856D1 /* AppDelegate.swift in Sources */,
 				A6B29F30252700BD0019137F /* MovieDetailsViewController.swift in Sources */,
+				A671284A252842BD00AFD271 /* MovieGridCell.swift in Sources */,
 				A640C276251E97A6001856D1 /* SceneDelegate.swift in Sources */,
 				A640C2A6251EB201001856D1 /* MovieCell.swift in Sources */,
 				A640C2A4251E9959001856D1 /* MoviesViewController.swift in Sources */,
